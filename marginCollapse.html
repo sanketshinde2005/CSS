@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>marginCollapse</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .Box1 {
+            background-color: aqua;
+            margin: 30px;
+            height: 230px;
+            width: 233px;
+            border: 2px solid black;
+
+        }
+
+        .Box2 {
+            background-color: orangered;
+            /* margin: 30px; */
+            height: 20px;
+            width: 100%;
+            padding: 6px;
+            border: 5px solid grey;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Box1">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio ipsam cumque repudiandae totam eos laborum
+        quia magnam consectetur? Corrupti quaerat odit quidem hic eligendi! Atque, nihil deleniti?
+        <div class="Box2">
+        </div>
+    </div>
+
+</body>
+
+</html>
